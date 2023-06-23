@@ -1,0 +1,32 @@
+.userListContainer {
+  background-color: #142026;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  padding: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.685);
+  font-family: var(--base-font-family);
+}
+
+.userListStack {
+  max-height: calc(100vh - 350px);
+  overflow-y: auto;
+}
+
+.userAmountInfo {
+  margin: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555555;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #858585;
+  border-radius: 6px;
+}

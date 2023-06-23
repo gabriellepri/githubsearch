@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 23px;
+  text-align: center;
+  color: white;
+  background-color: #123142;
+  height: calc(100vh - 219px);
+}

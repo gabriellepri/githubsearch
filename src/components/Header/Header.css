@@ -1,0 +1,19 @@
+@import '../../styles/variables.css';
+
+header {
+  padding: 23px;
+  text-align: center;
+  color: white;
+  background-color: #123142;
+}
+
+.logo {
+  max-height: 80px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.title {
+  font-size: 2em;
+  font-family: var(--title-font-family);
+}

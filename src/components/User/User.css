@@ -1,0 +1,38 @@
+@import '../../styles/variables.css';
+
+.userItem {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px 10px 0;
+  background-color: #20130a;
+  border-radius: 50px;
+  margin: 10px auto;
+  max-width: 300px;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.151);
+  cursor: pointer;
+  font-family: var(--base-font-family);
+
+  & h2 {
+    word-break: break-all;
+  }
+}
+
+.userAvatar {
+  max-height: 80px;
+  border-radius: 50%;
+  margin: 0 10px;
+  border: 5px solid #3b657a;
+}
+
+.anchor {
+  text-decoration: none;
+  color: white;
+}
+
+.link {
+  margin-top: 5px;
+  align-items: center;
+  display: flex;
+}

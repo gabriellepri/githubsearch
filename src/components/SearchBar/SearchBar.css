@@ -1,0 +1,38 @@
+@import '../../styles/variables.css';
+
+.searchBarContainer {
+  & p {
+    font-family: var(--base-font-family);
+    font-size: 18px;
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBar {
+  margin: 15px 10px 30px 0;
+  padding: 5px;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  text-indent: 15px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  margin: 15px 10px 30px 0;
+  cursor: pointer;
+
+  & span {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    height: 40px;
+    color: white;
+  }
+}
