@@ -34,7 +34,7 @@ const UserList = () => {
         <div className="userListContainer">
           <p>
             Tivemos um problema ao buscar o usuário. Por favor, tente 
-            novamente em alguns instantes.
+            novamente em alguns instantes ou revise o nome inserido.
           </p>
         </div>
       )
