@@ -12,7 +12,6 @@ const UserList = () => {
 
   const renderData = () => {
     if (data?.items?.length > 0 && !error) {
-      console.log(data?.items, 'data items')
       return (
         <div className="userListContainer">
           <div className="userListStack">

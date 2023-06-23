@@ -29,7 +29,6 @@ const DataProvider = ({children}: { children: ReactNode }) => {
       setData(responseData);
       setError(undefined);
     } catch (error) {
-      console.log(error, 'error')
       setError(error.message);
     }
   };
